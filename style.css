@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;500&display=swap");
+body {
+  background-color: hsl(210deg, 46%, 95%);
+}
+body .principal {
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  grid-template-rows: repeat(2, 320px);
+  grid-template-areas: "daniel daniel jonatan kira" "jeanette patrick patrick kira";
+  margin-left: 30px;
+  margin-top: 15px;
+}
+body .daniel {
+  grid-area: daniel;
+  background-color: hsl(263deg, 55%, 52%);
+  background-image: url(./novodesafio/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: 83%;
+  background-size: 22%;
+  width: 575px;
+  height: 230px;
+  padding: 30px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+}
+body .daniel .p1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed", Arial;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+body .daniel .p2 {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .daniel .foto {
+  display: flex;
+}
+body .daniel .foto .d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", Arial;
+  color: white;
+  font-size: 18px;
+}
+body .daniel .foto small {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .daniel .foto img {
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 20px;
+  border: 3px solid hsl(263deg, 85%, 68%);
+}
+body .jonatan {
+  grid-area: jonatan;
+  background-color: hsl(217deg, 19%, 35%);
+  width: 250px;
+  height: 230px;
+  padding: 30px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+body .jonatan .p1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed", Arial;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+body .jonatan .p2 {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .jonatan .foto {
+  display: flex;
+}
+body .jonatan .foto .j {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", Arial;
+  color: white;
+  font-size: 18px;
+}
+body .jonatan .foto small {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .jonatan .foto img {
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 20px;
+}
+body .kira {
+  grid-area: kira;
+  background-color: white;
+  width: 250px;
+  height: 530px;
+  padding: 30px;
+  padding-bottom: 65px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+body .kira .p1 {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed", Arial;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+body .kira .p2 {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .kira .foto {
+  display: flex;
+}
+body .kira .foto .k {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", Arial;
+  color: hsl(219deg, 29%, 14%);
+  font-size: 18px;
+}
+body .kira .foto small {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .kira .foto img {
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 20px;
+}
+body .jeanette {
+  grid-area: jeanette;
+  background-color: white;
+  width: 250px;
+  height: 210px;
+  padding: 30px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+body .jeanette .p1 {
+  color: hsl(219deg, 29%, 14%);
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed", Arial;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+body .jeanette .p2 {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .jeanette .foto {
+  display: flex;
+}
+body .jeanette .foto .h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", Arial;
+  color: hsl(219deg, 29%, 14%);
+  font-size: 18px;
+}
+body .jeanette .foto small {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .jeanette .foto img {
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 20px;
+}
+body .patrick {
+  grid-area: patrick;
+  background-color: hsl(219deg, 29%, 14%);
+  width: 570px;
+  height: 210px;
+  padding: 30px;
+  padding-bottom: 55px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+body .patrick .p1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed", Arial;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+body .patrick .p2 {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .patrick .foto {
+  display: flex;
+}
+body .patrick .foto .p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Semi Condensed", Arial;
+  color: white;
+  font-size: 18px;
+}
+body .patrick .foto small {
+  color: #bebebe;
+  font-family: "Barlow Semi Condensed", Arial;
+}
+body .patrick .foto img {
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 20px;
+  border: 3px solid hsl(263deg, 85%, 68%);
+}
+
+@media (max-width: 576px) {
+  body .principal {
+    grid-template-areas: "daniel" "daniel" "jonatan" "jeanette" "patrick" "kira";
+  }
+}
+@media (max-width: 576px) {
+  body .daniel {
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-28%);
+    margin-bottom: 30px;
+    width: 370px;
+    height: auto;
+    background-size: 34%;
+    background-position-x: 93%;
+    font-size: large;
+  }
+  body .daniel .p1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 576px) {
+  body .jonatan {
+    margin-left: 39px;
+    margin-top: 50px;
+    width: 370px;
+    height: 260px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  body .jeanette {
+    margin-left: 39px;
+    margin-top: 33px;
+    width: 370px;
+    height: 240px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  body .patrick {
+    position: relative;
+    left: 50%;
+    top: 25px;
+    transform: translate(-30%);
+    width: 370px;
+    height: auto;
+    font-size: large;
+  }
+  body .patrick .p1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 576px) {
+  body .kira {
+    position: relative;
+    left: 50%;
+    top: 60px;
+    transform: translate(-33%);
+    width: 370px;
+    height: 620px;
+    margin-bottom: 100px;
+    font-size: large;
+    text-align: justify;
+  }
+  body .kira .p1 {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
